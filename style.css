@@ -132,9 +132,9 @@ p {
     display: block;
     width: 370px;
     font-size: 22px;
+    font-weight: 400;
     line-height: 1.4545454545454546;
     letter-spacing: -0.01em;
-    font-weight: 400;
     margin-bottom: 23px;
     margin-bottom: 32px;
   }
