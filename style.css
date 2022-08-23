@@ -138,6 +138,72 @@ button {
   margin-bottom: 16px;
 }
 
+/* frontend-course - page */
+
+.frontend-course.container {
+  width: 100%;
+  padding: 80px 15px;
+}
+
+.program {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #009b4d;
+  margin-bottom: 8px;
+}
+
+.f-course-title {
+  font-size: 34px;
+  line-height: 1.0588235294117647;
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+}
+
+.f-course-contents {
+  margin-bottom: 32px;
+}
+
+.full-time {
+  position: relative;
+  width: 100%;
+  height: 291px;
+  background-repeat: no-repeat;
+  background-size: 142.21px 195px;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.05), 0 1px 3px 0 rgba(0, 0, 0, 0.1),
+    0 -1px 0 0 #fff;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.on-Campus {
+  background-image: url(./assets/img-fulltime-campus.png);
+}
+
+.Remote {
+  background-image: url(./assets/img-fulltime-remote.png);
+}
+
+.Flex {
+  background-image: url(./assets/img-parttime-flex.png);
+}
+
+.full-time:last-child {
+  margin-bottom: 0;
+}
+
+.img-title {
+  position: absolute;
+  bottom: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3333333333333333;
+  letter-spacing: -0.02em;
+}
+
 /* > 768px (Desktop) */
 @media screen and (min-width: 768px) {
   /* welcome-page */
@@ -203,6 +269,63 @@ button {
 
   .intro-column {
     width: 100%;
+  }
+
+  /* frontend-course - page */
+
+  .frontend-course.container {
+    height: 827px;
+    padding: 80px 15px 96px;
+  }
+
+  .writing-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .program {
+    font-size: 22px;
+    line-height: 1.0909090909090908;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .f-course-title {
+    font-size: 56px;
+    line-height: 1;
+    padding: 0 230px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .f-course-contents {
+    padding: 0 80px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+
+  .f-course-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .full-time {
+    width: 290px;
+    height: 299px;
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+
+  .full-time:last-child {
+    margin-right: 0;
+  }
+
+  .img-title {
+    position: absolute;
+    bottom: 32px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.3333333333333333;
+    letter-spacing: -0.02em;
   }
 }
 
