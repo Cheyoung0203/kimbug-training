@@ -1,0 +1,19 @@
+/* 미리 작업할 수 있는것을 작성해서 생산성을 향상시키자 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* mobile - mode */
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #2b292d;
+}
