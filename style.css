@@ -50,6 +50,18 @@ p {
   letter-spacing: -0.01em;
 }
 
+h1 {
+  font-size: 34px;
+  line-height: 1.0588235294117647;
+  letter-spacing: -0.03em;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+}
+
 h1,
 h2,
 h3,
@@ -65,6 +77,11 @@ button {
   font-weight: 700;
   letter-spacing: -0.05em;
   text-align: center;
+  border-radius: 2px;
+}
+
+.container {
+  padding: 80px 15px;
 }
 
 /* mobile */
@@ -142,21 +159,14 @@ button {
 
 .frontend-course.container {
   width: 100%;
-  padding: 80px 15px;
 }
 
 .program {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: -0.01em;
   color: #009b4d;
   margin-bottom: 8px;
 }
 
 .f-course-title {
-  font-size: 34px;
-  line-height: 1.0588235294117647;
-  letter-spacing: -0.03em;
   margin-bottom: 24px;
 }
 
@@ -204,6 +214,47 @@ button {
   letter-spacing: -0.02em;
 }
 
+/* frontend-curriculum */
+
+.frontend-curriculum {
+  width: 100%;
+  height: 100vh;
+}
+
+.curriculum {
+  color: #0189d1;
+  margin-bottom: 8px;
+}
+
+.curriculum-title {
+  margin-bottom: 24px;
+}
+
+.curriculum-contents {
+  margin-bottom: 32px;
+}
+
+.curriculum-apply-btn {
+  margin-bottom: 48px;
+}
+
+.curriculum-learn-btn {
+  display: none;
+}
+
+.curriculum-des p {
+  font-size: 15px;
+  line-height: 1.4666666666666666;
+}
+
+.smartphone-img-col {
+  display: none;
+}
+
+.curriculum-des p:first-child {
+  margin-bottom: 40px;
+}
+
 /* > 768px (Desktop) */
 @media screen and (min-width: 768px) {
   /* welcome-page */
@@ -231,6 +282,13 @@ button {
     width: 455px;
     text-align: center;
     margin-bottom: 32px;
+  }
+
+  button {
+    width: 160px;
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.5555555555555556;
   }
 
   /* intro-page */
@@ -326,6 +384,59 @@ button {
     font-weight: 700;
     line-height: 1.3333333333333333;
     letter-spacing: -0.02em;
+  }
+
+  /* curriculum - page */
+
+  .frontend-curriculum {
+    height: 728px;
+    padding: 80px 15px 96px;
+  }
+
+  .smartphone-img-col {
+    display: block;
+  }
+
+  .curriculum {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .curriculum-title {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 31px;
+  }
+
+  .curriculum-contents {
+    font-size: 22px;
+    line-height: 1.4545454545454546;
+    margin-bottom: 72px;
+  }
+
+  .curriculum-apply-btn {
+    display: none;
+  }
+
+  .curriculum-learn-btn {
+    display: block;
+    background-color: #3040c4;
+    color: #fff;
+  }
+
+  .smartphone-img-col {
+    display: block;
+    height: 426px;
+    background-image: url(./assets/img-curriculum.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-bottom: 36px;
+  }
+
+  .curriculum-des p {
+    font-size: 18px;
+    line-height: 1.4444444444444444;
   }
 }
 
