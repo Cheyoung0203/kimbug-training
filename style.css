@@ -329,6 +329,24 @@ button {
   text-decoration: underline;
 }
 
+/* tail - page */
+.tail-page {
+  padding: 24px 15px;
+  margin-bottom: 6px;
+}
+
+ul li {
+  font-size: 14px;
+  line-height: 1.7142857142857142;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+  color: #807f81;
+}
+
+ul li:last-child {
+  margin-bottom: 0;
+}
+
 /* > 768px (Desktop) */
 @media screen and (min-width: 768px) {
   /* welcome-page */
@@ -573,6 +591,26 @@ button {
     font-size: 14px;
     line-height: 1.7142857142857142;
     text-align: start;
+  }
+
+  /* tail - page */
+  .tail-page {
+    padding: 16px;
+    margin-bottom: 0px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul li {
+    font-size: 14px;
+    line-height: 1.7142857142857142;
+    letter-spacing: -0.01em;
+    margin-bottom: 0px;
+    margin-right: 16px;
+    color: #807f81;
   }
 }
 
