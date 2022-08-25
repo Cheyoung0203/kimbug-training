@@ -1,8 +1,5 @@
-/* 미리 작업할 수 있는것을 작성해서 생산성을 향상시키자 */
-
-/* >= 768px, desktop - mode */
+/* desktop - mode */
 @media screen and (min-width: 768px) {
-  /* 미리 작성한 코드 */
   p {
     font-size: 22px;
     line-height: 1.4545454545454546;
@@ -15,7 +12,7 @@
     line-height: 1.5555555555555556;
   }
 
-  /* ------------------landing page------------------ */
+  /* landing - page */
 
   .landing-content {
     height: auto;
@@ -36,23 +33,20 @@
     margin-right: 16px;
   }
 
-  /* ------------------landing page------------------ */
+  /* service - page */
 
-  /* ------------------service page------------------ */
   .service-title {
     font-size: 26px;
     line-height: 1.3076923076923077;
   }
 
   .service .col-12:first-child {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
-  /* ------------------service page------------------ */
 }
 
-/* Custom grid system -Fix contain1er width */
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 960px !important;
+    width: 960px;
   }
 }
