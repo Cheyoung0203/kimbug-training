@@ -15,6 +15,22 @@
     line-height: 1.5555555555555556;
   }
 
+  .section {
+    padding-bottom: 96px;
+  }
+
+  .section-category {
+    font-size: 22px;
+    line-height: 1.0909090909090908;
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    font-size: 56px;
+    line-height: 1;
+    margin-bottom: 32px;
+  }
+
   /* ------------------landing page------------------ */
 
   .landing-content {
@@ -48,6 +64,12 @@
     margin-bottom: 0px;
   }
   /* ------------------service page------------------ */
+
+  /* ------------------program page------------------ */
+  .program {
+    text-align: center;
+  }
+  /* ------------------program page------------------ */
 }
 
 /* Custom grid system -Fix contain1er width */

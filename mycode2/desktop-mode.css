@@ -12,6 +12,22 @@
     line-height: 1.5555555555555556;
   }
 
+  .section {
+    padding-bottom: 96px;
+  }
+
+  .section-category {
+    font-size: 22px;
+    line-height: 1.0909090909090908;
+    margin-bottom: 16px;
+  }
+
+  .section-title {
+    margin-bottom: 32px;
+    font-size: 56px;
+    line-height: 1;
+  }
+
   /* landing - page */
 
   .landing-content {
@@ -42,6 +58,11 @@
 
   .service .col-12:first-child {
     margin-bottom: 0;
+  }
+
+  /* program - page */
+  .program {
+    text-align: center;
   }
 }
 
