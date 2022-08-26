@@ -69,6 +69,19 @@
   .program {
     text-align: center;
   }
+
+  .program .row:first-child {
+    margin-bottom: 72px;
+  }
+
+  .program img {
+    margin-bottom: 24px;
+  }
+
+  .program strong {
+    font-size: 20px;
+    line-height: 1.2;
+  }
   /* ------------------program page------------------ */
 }
 
