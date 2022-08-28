@@ -23,12 +23,24 @@
     font-size: 22px;
     line-height: 1.0909090909090908;
     margin-bottom: 16px;
+    letter-spacing: -0.01em;
   }
 
   .section-title {
     font-size: 56px;
     line-height: 1;
     margin-bottom: 32px;
+    letter-spacing: -0.03em;
+  }
+
+  .section-desc {
+    font-size: 22px;
+    line-height: 1.4545454545454546;
+    letter-spacing: -0.01em;
+  }
+
+  .only-desktop {
+    display: block;
   }
 
   /* ------------------landing page------------------ */
@@ -83,6 +95,31 @@
     line-height: 1.2;
   }
   /* ------------------program page------------------ */
+
+  /* ------------------curriculum page------------------ */
+
+  .curriculum .row:first-child {
+    margin-bottom: 24px;
+  }
+
+  .curriculum .only-desktop {
+    height: 450px;
+    width: auto;
+    background-image: url("../assets/img-curriculum");
+    background-repeat: no-repeat;
+    background-size: 450px 450px;
+  }
+
+  .curriculum .section-desc {
+    margin-bottom: 72px;
+  }
+
+  .curriculum .row:nth-child(2) p {
+    font-size: 18px;
+    line-height: 1.4444444444444444;
+  }
+
+  /* ------------------curriculum page------------------ */
 }
 
 /* Custom grid system -Fix contain1er width */
