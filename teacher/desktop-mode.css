@@ -83,6 +83,36 @@
     line-height: 1.2;
   }
   /* ------------------program page------------------ */
+
+  /* ----------------Curriculum page------------------ */
+  .curriculum .row:first-child {
+    margin-bottom: 24px;
+  }
+
+  .curriculum .row:last-child .col-12:first-child {
+    margin-bottom: 0;
+  }
+
+  .curriculum .section-desc {
+    margin-bottom: 72px;
+  }
+
+  .curriculum-image {
+    display: block;
+  }
+
+  .curriculum-image img {
+    display: block;
+    width: 100%;
+    max-width: 425px;
+    height: auto;
+  }
+
+  .curriculum-detail-desc {
+    font-size: 18px;
+    line-height: 1.4444444444444444;
+  }
+  /* ----------------Curriculum page------------------ */
 }
 
 /* Custom grid system -Fix contain1er width */
