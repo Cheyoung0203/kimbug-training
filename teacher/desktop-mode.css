@@ -113,6 +113,65 @@
     line-height: 1.4444444444444444;
   }
   /* ----------------Curriculum page------------------ */
+
+  /* ----------------subscription page---------------- */
+
+  .subscription {
+    padding: 80px 0;
+    text-align: left;
+  }
+
+  .subscription-image {
+    padding: 8px 0;
+  }
+
+  .subscription-image img {
+    height: 285px;
+    margin-left: 0;
+  }
+
+  .subscription-title {
+    font-size: 40px;
+  }
+
+  .subscription .input-group {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .subscription .input-group input {
+    height: 56px;
+    font-size: 18px;
+    line-height: 1.3333333333333333;
+    margin-right: 8px;
+    margin-bottom: 4px;
+  }
+
+  .subscription .input-group .fill-button {
+    flex-shrink: 0;
+    font-size: 18px;
+    line-height: 1.3333333333333333;
+    letter-spacing: -0.02em;
+    width: 160px;
+  }
+
+  .subscription-form .form-notice {
+    font-size: 14px;
+    line-height: 1.7142857142857142;
+  }
+  /*
+   flex-grow: 부모태그 width값 안에 자식 태그들이 차지하고 남는공간이 있을때 그 공간만큼을 차지하게 해줌
+   
+   flex-shirink: flex-grow와 반대의 개념, 부모 태그의 width값보가 자식 태그들의 width합이 더 크면 자식 태그의 width값이 자동으로 줄어든다. 이를 방지하기 위한 속성
+   */
+
+  /* 이상 현상: 똑같은 160px button인데 curriculum button보다 더 width값이 작게 나온다.
+  
+  ==> 이유: 
+  */
+
+  /* ----------------subscription page---------------- */
 }
 
 /* Custom grid system -Fix contain1er width */
