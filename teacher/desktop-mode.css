@@ -172,6 +172,25 @@
   */
 
   /* ----------------subscription page---------------- */
+
+  /* ----------------footer page---------------- */
+  .footer {
+    padding: 16px 0;
+  }
+
+  .footer-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-link {
+    margin: 0 16px 0 0;
+  }
+
+  .footer-link:last-child {
+    margin-right: 0;
+  }
+  /* ----------------footer page---------------- */
 }
 
 /* Custom grid system -Fix contain1er width */
