@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T06:22:31.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="aMenJfU230BXBUz6zYpl" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T06:22:47.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TyzGGyQA7PzR2sY5JC_O" version="20.8.13" type="github">
   <diagram name="페이지-1" id="Z5iVOpoP6ubZI3EH9XKK">
     <mxGraphModel dx="2261" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,6 +126,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fdHjZme6HcPmR97XXhPC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;startArrow=ERoneToMany;startFill=0;" parent="1" source="UlXWe520lDp0XCcP4vNM-38" target="fdHjZme6HcPmR97XXhPC-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m2BXak9GLnQ6UlN5OCJH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;startArrow=ERone;startFill=0;" edge="1" parent="1" source="UlXWe520lDp0XCcP4vNM-38" target="m2BXak9GLnQ6UlN5OCJH-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UlXWe520lDp0XCcP4vNM-38" value="daily_&lt;br&gt;studyTime&lt;br&gt;(하루공부시간)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
@@ -295,6 +298,9 @@
         </mxCell>
         <mxCell id="m2BXak9GLnQ6UlN5OCJH-2" value="순공시간&lt;br&gt;일련번호" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="520" y="420" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m2BXak9GLnQ6UlN5OCJH-4" value="달성여부" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="800" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
